@@ -1,0 +1,51 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "rules": {
+    "prefer-const": 2,
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "react/jsx-filename-extension": 0,
+    "no-console": 1,
+    "react/prop-types": ["error", {"skipUndeclared": true, "ignore": ["children"]}],
+    "no-constant-condition": 1,
+    "no-case-declarations": 1,
+    "indent": [1, "tab"],
+    "semi": 0,
+    "no-tabs": 0,
+    "react/jsx-indent": 0,
+    "import/prefer-default-export": 0,
+    "import/first": 0,
+    "no-var": 1,
+    "react/forbid-prop-types": 0,
+    "comma-spacing": 1,
+    "react/sort-comp": 0,
+    "default-case": 1,
+    "react/jsx-max-props-per-line": 0,
+    "array-callback-return": 1,
+    "no-return-assign": 0,
+    "no-useless-escape": 1,
+    "react/jsx-indent-props": 0,
+    "react/jsx-first-prop-new-line": 1,
+    "react/self-closing-comp": 1
+  },
+  "env": {
+    "browser": true,
+    "mocha": true
+  },
+  "globals": {
+    "dd": false,
+    "window": false,
+    "global": false,
+    "__WPO": false,
+    "IDLAPI":false
+  }
+}

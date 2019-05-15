@@ -1,0 +1,45 @@
+{
+  "name": "codewar-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerry-FD/codewar-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jerry-FD/codewar-ex/issues"
+  },
+  "homepage": "https://github.com/Jerry-FD/codewar-ex#readme",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@webassemblyjs/floating-point-hex-parser": "^1.8.5",
+    "@webassemblyjs/helper-fsm": "^1.8.5",
+    "@xtuc/long": "^4.2.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react-router": "^5.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
